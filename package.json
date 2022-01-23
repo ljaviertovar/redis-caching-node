@@ -1,0 +1,29 @@
+{
+  "name": "redis-caching-node",
+  "description": "App that caches rest request.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljaviertovar/redis-caching-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "express": "^4.17.2",
+    "redis": "^4.0.2",
+    "redis-commander": "^0.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "response-time": "^2.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/ljaviertovar/redis-caching-node/issues"
+  },
+  "homepage": "https://github.com/ljaviertovar/redis-caching-node#readme"
+}
